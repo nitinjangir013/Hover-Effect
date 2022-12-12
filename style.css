@@ -1,0 +1,113 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+html,body
+{
+  width: 100%;
+  height: 100%;
+}
+
+body
+{
+  font-family: calibri;
+  background: rgba(251,238,243,1);
+}
+
+.container
+{
+  padding-top: 1px;
+}
+
+.main_container
+{
+  width: 850px;
+  height: 400px;
+  margin: 0 auto;
+  margin-top: 70px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+  display: none;
+}
+
+.image
+{
+  width: 50%;
+}
+
+.content_cont
+{
+  width: 44%;
+  height: 90%;
+  padding: 4% 3%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content_1,.content_2,.content_3,.content_4
+{
+  width: 150px;
+  height: 140px;
+  padding-top: 10px;
+  margin-right: 35px;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+}
+
+.hover_1,.hover_2,.hover_3,.hover_4
+{
+  width: 150px;
+  height: 150px;
+  background: #fff;
+  color: #000;
+  overflow: hidden;
+  border-top:2px solid #000;
+  border-bottom:2px solid #000;
+  position: absolute;
+  top:0;
+  left:0;
+}
+
+.content_in_1
+{
+  width: 150px;
+  height: 150px;
+  padding-top: 10px;
+}
+
+b
+{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.arrow1
+{
+  width: 20px;
+  filter: invert(100%);
+  margin-top: 90px;
+  margin-left: 10px;
+}
+
+.time1
+{
+  margin-left:55px;
+}
+
+.arrow_in_1
+{
+  width: 20px;
+/*   filter: invert(100%); */
+  margin-top: 90px;
+  margin-left: 10px;
+}
+
+.time_in_1
+{
+  margin-left:55px;
+}
